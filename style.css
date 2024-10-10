@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(108, 165, 42);
+    margin: 0px;
+    background-image: url(./Bilder/Present100.png);
+    display: flex;
+    justify-content: center;
+}
+main {
+    background-color: darkslategray;
+    margin: 0px;
+    width: 1000px;
+    height: 100%;
+    padding: 25px;
+}
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    background-color: darkolivegreen;
+    margin-bottom: 25px;
+}
+.refresh {
+    transition: all 2s;
+}
+.refresh:hover {
+    transform: rotate(360deg);
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+.content {
+    text-align: justify;
+    background-color: rgba(255, 235, 205, 0.521);
+    border-radius: 30px;
+    padding: 15px;
+    transition: all 1s;
+}
+.puzzle {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    width: 200px;
+    padding-right: 15px;
+}
+.text p {
+    text-align: center;
+}
+.text h2 {
+    text-decoration: underline;
+}
+.money {
+    margin-top: 50px;
+    width: 770px;
+}
+.totk {
+    width: 300px;
+}
+.hw {
+    width: 400px;
+}
+.content:hover {
+    transform: scale(1.08);
+}
+.content h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+.image {
+    text-align: center;
+}
+.image img {
+    height: 300px;
+    width: auto;
+    max-width: 80vw;
+}
+.bold {
+    font-weight: bold;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.overline {
+    text-decoration: overline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
